@@ -18,7 +18,8 @@ int main () {
   deu_certo = scanf("%f", &n3);
 
   float media = (n1 + n2 + n3)/3;
-  printf("A média aritmética é: %.2f\n", media);
+  printf("A média aritmética é: %.0f\n", media);
+   printf("                          \n");
    
 return 0;
 }
